@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIA_FIM_OP_ATOMICA" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="msgMIGRA_TABELA_SENIOR_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela Senior</value>
+  </data>
+  <data name="msgMIGRA_TABELA_ARQUIVOCFG_INI" xml:space="preserve">
+    <value>Início da migração da Tabela ArquivoCFG...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_ARQUIVOCFG_FIM" xml:space="preserve">
+    <value>Migração da Tabela ArquivoCFG concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOREPxUSUARIO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela GrupoRepXusuario...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOREPxUSUARIO_FIM" xml:space="preserve">
+    <value>Migração da Tabela GrupoRepXusuario concluída.</value>
+  </data>
+  <data name="msgENVIO_SOLICITACAO_TEMPLATE" xml:space="preserve">
+    <value>Solicitando usuários Bio armazenados, aguarde...</value>
+  </data>
+  <data name="msgRB1_REP_JA_CADASTRADO_NA_BASE" xml:space="preserve">
+    <value>Um Rep com o mesmo número de série já esta cadastrado na base de dados.</value>
+  </data>
+  <data name="msg_VERIFICANDO_OPERACAO_ATOMICA" xml:space="preserve">
+    <value>Aguardando termino do processamento</value>
+  </data>
+  <data name="msgPROCESSO_DE_SOLICITACAO_DE_CONFIGURACOES_SUCESSO" xml:space="preserve">
+    <value>Configurações recebidas com sucesso!</value>
+  </data>
+  <data name="msgBIO_COM_SUCESSO" xml:space="preserve">
+    <value>Comando executado com sucesso.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_AGUARDA_FIM_OP_ATOMICA" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACOES_INI" xml:space="preserve">
+    <value>Início da migração da Tabela Configuracoes...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACOES_FIM" xml:space="preserve">
+    <value>Migração da Tabela Configuracoes concluída.</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_LST_TIPO_USUARIOS" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="msgMIGRA_TABELA_MANUTENCAODB_INI" xml:space="preserve">
+    <value>Início da migração da Tabela ManutencaoDB...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_MANUTENCAODB_FIM" xml:space="preserve">
+    <value>Migração da Tabela ManutencaoDB concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOBIO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela ConfiguracaoBio.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CARTAO_FIM" xml:space="preserve">
+    <value>Migração da Tabela Cartao concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CARTAO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela Cartao...</value>
+  </data>
+  <data name="msgERRO_COMUNIC_NAO_AVALIADO" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="msgENVIANDO_CONFIGURACOES" xml:space="preserve">
+    <value>Enviando as configurações...</value>
+  </data>
+  <data name="msgBIO_TEMPLATE_REPITIDA" xml:space="preserve">
+    <value>Digital já está cadastrada em outro PIS no equipamento</value>
+  </data>
+  <data name="msgBIO_FALHA_COMANDO" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_INCLUSAO_TEMPLATE" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_CONFIGURACOES_INICIO" xml:space="preserve">
+    <value>Enviando as configurações gerais.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_ARQUIVOCFG_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela ArquivoCFG.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_SOLIC_DADOS_AFD" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="msgERRO_EQUIPAMENTO_CONFIGURADO_DIFERENTE_CONECTADO_373" xml:space="preserve">
+    <value>O Gerenciador Inner Rep não pode se comunicar com o Inner 373, devido ao modelo escolhido no seu cadastro estar incorreto. Configure no cadastro de Rep o modelo de "Inner 373" correto e tente comunicar novamente.</value>
+  </data>
+  <data name="msgPROCESSO_FINALIZADO" xml:space="preserve">
+    <value>Processo finalizado com sucesso.</value>
+  </data>
+  <data name="msgTIMEOUT_PROCESSA_DADOS_EMPREGADOS" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="msgTIMEOUT_PROCESSA_DADOS_EMPREGADOR" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="msgINICIO_PROCESSO_IMPORTACAO" xml:space="preserve">
+    <value>Executando a importação das digitais, aguarde...</value>
+  </data>
+  <data name="msgPROCESSO_DE_SOLICITACAO_DE_EMPREGADOR_ANDAMENTO" xml:space="preserve">
+    <value>Solicitando dados do empregador...</value>
+  </data>
+  <data name="msg_AFD_COLETADO" xml:space="preserve">
+    <value>Processo de coleta de AFD finalizada</value>
+  </data>
+  <data name="msgFORMATO_CARTAO_PROX_ZERADO" xml:space="preserve">
+    <value>Mascara de cartão prox de empregado zerado!</value>
+  </data>
+  <data name="msgERRO_CONEXAO_INTERROMPIDA_ERRO_DB" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="msgERRO_CONEXAO_INTERROMPIDA_ERRO_IN" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="msgBIO_USUARIO_JA_CADASTRADO" xml:space="preserve">
+    <value>Empregado já cadastrado.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_CONFIG_MODELO_REP" xml:space="preserve">
+    <value>Falha de comunicação, não recebeu resposta após a solicitação do modelo do rep</value>
+  </data>
+  <data name="msgPROCESSANDO_DADOS_RB1" xml:space="preserve">
+    <value>Processando dados...</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_ENVIO_LOGS" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_DADOS_EMPREGADOS" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_DADOS_EMPREGADOR" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="msgERRO_CONEXAO_INTERROMPIDA" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="msgBIO_TIME_OUT_COMUNICACAO" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="msgEXCLUSAO_TEMPLATE_FINALIZADO" xml:space="preserve">
+    <value>Exclusão dos usuários Bio executada com sucesso.</value>
+  </data>
+  <data name="msgFALHA_CONFIG_TLM_NAO_ENCONTRADA" xml:space="preserve">
+    <value>Dados de configuração não encontrados</value>
+  </data>
+  <data name="msgPROCESSO_DE_SOLICITACAO_DE_EMPREGADOS_ANDAMENTO" xml:space="preserve">
+    <value>Solicitando dados dos empregados...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOOPERADORPRIVILEGIO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela GrupoOperadorPrivilegio.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REPAFD_INI" xml:space="preserve">
+    <value>Início da migração da Tabela RepAFD...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REPAFD_FIM" xml:space="preserve">
+    <value>Migração da Tabela RepAFD concluída.</value>
+  </data>
+  <data name="msgCHAVE_COMUNICACAO_ERRADA" xml:space="preserve">
+    <value>6 - Chave de comunicação incorreta.</value>
+  </data>
+  <data name="msgNAO_ENCONTRADO_TEMPLATE" xml:space="preserve">
+    <value>Não foram encontradas digitais armazenadas no Rep.</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_LST_USUARIOS" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="msgSTATUS_ATUALIZACAO_EXCLUSAO" xml:space="preserve">
+    <value>Exclusão Pendente</value>
+  </data>
+  <data name="msgERRO_NSR_NAO_EXISTE" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="msgMIGRA_QTD_REGISTROS" xml:space="preserve">
+    <value>Quantidade de registros migrados:</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_EMPREGADOR_FINALIZADO_SEM_ALTERACOES" xml:space="preserve">
+    <value>Sem alterações para enviar.</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_CONFIGURACOES_FINALIZADO" xml:space="preserve">
+    <value>Enviado com sucesso.</value>
+  </data>
+  <data name="msgERRO_COMUNICACAO_CONEXAO_RESETADA" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TEMPLATES_LM_INI" xml:space="preserve">
+    <value>Inicio da migração da tabela TemplatesLM...</value>
+  </data>
+  <data name="msg_PROCESSO_EMPREGADOS_FINALIZADO_SEM_ALTERACOES" xml:space="preserve">
+    <value>Sem alterações para enviar.</value>
+  </data>
+  <data name="msg_FINALIZANDO_OPERACAO_ATOMICA" xml:space="preserve">
+    <value>Encerrando envio de informações para o Rep</value>
+  </data>
+  <data name="msg_PROCESSO_EMPREGADOS_FINALIZADO" xml:space="preserve">
+    <value>Atualizado com sucesso.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_COLETAAFD_INI" xml:space="preserve">
+    <value>Início da migração da Tabela ColetaAFD...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_COLETAAFD_FIM" xml:space="preserve">
+    <value>Migração da Tabela ColetaAFD concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACOES_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela Configuracoes.</value>
+  </data>
+  <data name="msgSOLICITANDO_CONFIGURACOES_EQUIPAMENTO" xml:space="preserve">
+    <value>Solicitando informações ao Rep</value>
+  </data>
+  <data name="msgCPF_RESPONSAVEL_INVALIDO" xml:space="preserve">
+    <value>CPF do operador inválido. Verifique o Cadastro do Operador.</value>
+  </data>
+  <data name="msgBIO_OCUPADO" xml:space="preserve">
+    <value>Biometria ocupada</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_CPF_RESPONSAVEL_FINALIZADO" xml:space="preserve">
+    <value>Envio do CPF do Responsável realizado com sucesso!</value>
+  </data>
+  <data name="msgMIGRA_TABELA_COLETAAUTOMATICA_FIM" xml:space="preserve">
+    <value>Migração da Tabela ColetaAutomatica concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_COLETAAUTOMATICA_INI" xml:space="preserve">
+    <value>Início da migração da Tabela ColetaAutomatica...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TIPOARQUIVOMETADADO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela TipoArquivoMetaDado.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_TEMPLATE_USUARIO" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_CHAVE" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_RECUPERAR_MARCACOES" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TEMPLATES_CAMA_INI" xml:space="preserve">
+    <value>Inicio da migração da tabela TemplatesCama...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TEMPLATES_CAMA_FIM" xml:space="preserve">
+    <value>Migração da tabela TemplatesCama concluída.</value>
+  </data>
+  <data name="msgCONFIGURACOES_ATUALIZADAS" xml:space="preserve">
+    <value>As configurações foram enviadas com sucesso.</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_CONFIG_VERSAO_PROX" xml:space="preserve">
+    <value>Falha de comunicação, foi atingido o tempo limite após a solicitação dados da versão Prox</value>
+  </data>
+  <data name="msgPROCESSANDO_ARQUIVO" xml:space="preserve">
+    <value>Processando arquivo de marcações...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TIPOTERMINALMETADADO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela TipoTerminalMetaDado...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TIPOTERMINALMETADADO_FIM" xml:space="preserve">
+    <value>Migração da Tabela TipoTerminalMetaDado concluída.</value>
+  </data>
+  <data name="msgERRO_COMUNICACAO_NO_ENVIO" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="msgDADOS_RB1_IMPORTADOS_SUCESSO" xml:space="preserve">
+    <value>Dados do arquivo RB1 importados com sucesso!</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_CONFIG_MAC" xml:space="preserve">
+    <value>Falha de comunicação, nehuma resposta chegou após solicitar a configuração do MAC</value>
+  </data>
+  <data name="msgMIGRA_TABELA_ARQUIVOAFD_INI" xml:space="preserve">
+    <value>Início da migração da Tabela ArquivoAFD...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_ARQUIVOAFD_FIM" xml:space="preserve">
+    <value>Migração da Tabela ArquivoAFD concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TEMPLATES_LM_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela TemplatesLM.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REPCONFIGURACAOGERAL_FIM" xml:space="preserve">
+    <value>Migração da Tabela RepConfiguracaoGeral concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REPCONFIGURACAOGERAL_INI" xml:space="preserve">
+    <value>Início da migração da Tabela RepConfiguracaoGeral...</value>
+  </data>
+  <data name="msgREP_MEMORIA_CORROMPIDA" xml:space="preserve">
+    <value>A memória do REP está corrompida.</value>
+  </data>
+  <data name="msgBIO_PARAMETRO_INVALIDO" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_EMPREGADOR_SOLICITANDO_DADOS" xml:space="preserve">
+    <value>Solicitando informações de Empregador ao Rep.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_SOLIC_CONFIG_REP" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="msgBIO_NAO_MODO_MASTER" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REPCONFIGURACAOGERAL_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela RepConfiguracaoGeral.</value>
+  </data>
+  <data name="msgSOLICITANDO_DADOS_AFD1" xml:space="preserve">
+    <value>Aguarde, os registros AFD estão sendo recebidos. </value>
+  </data>
+  <data name="msgSOLICITANDO_DADOS_AFD2" xml:space="preserve">
+    <value>Esse processo pode levar alguns minutos</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_INFO_BIO" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="msgMIGRA_TABELA_MANUTENCAODB_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela ManutencaoDB.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REP_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela Rep.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TEMPLATES_INI" xml:space="preserve">
+    <value>Início da migração da Tabela TemplatesNitgen...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TEMPLATES_FIM" xml:space="preserve">
+    <value>Migração da Tabela TemplatesNitgen concluída.</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIA_FIM_OP_ATOMICA" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="msg_ENVIANDO_LOGS_EMPREGADOS" xml:space="preserve">
+    <value>Enviando LOGS ao REP</value>
+  </data>
+  <data name="errABRIR_CONEXAO" xml:space="preserve">
+    <value>Erro ao abrir conexão. </value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_RELOGIO" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="msgERRO_EQUIPAMENTO_CONFIGURADO_DIFERENTE_CONECTADO_DEMO" xml:space="preserve">
+    <value>O Gerenciador Inner Rep não pode se comunicar com o Inner Rep Plus Demonstração, devido ao modelo escolhido no seu cadastro estar incorreto. Configure no cadastro de Rep o modelo de "Inner Rep Plus Demonstração" correto e tente comunicar novamente.</value>
+  </data>
+  <data name="msgIMPORTANDO_DADOS_TEMPLATES_RB1" xml:space="preserve">
+    <value>Importando dados dos templates do arquivo RB1.</value>
+  </data>
+  <data name="msgCARREGANDO_EMPREGADOS_BASE_DADOS" xml:space="preserve">
+    <value>Carregando empregados da base...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TEMPLATES_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela TemplatesNitgen.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_VERSAO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela Versao...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_VERSAO_FIM" xml:space="preserve">
+    <value>Migração da Tabela Versao concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_VERSAO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela Versao.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOREP_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela GrupoRep.</value>
+  </data>
+  <data name="errACONTECEU_ERRO_INESPERADO" xml:space="preserve">
+    <value>Erro inesperado.</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_BILHETE" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_EMPREGADOS" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_EMPREGADOR" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_LST_CARTOES" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOGERAL_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela ConfiguracaoGeral.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_SOLIC_ULTIMO_NSR" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="msgPROCESSO_DE_SOLICITACAO_DE_EMPREGADOS_SUCESSO" xml:space="preserve">
+    <value>Empregados recebidos com sucesso!</value>
+  </data>
+  <data name="msgMIGRA_TABELA_OPERADOR_INI" xml:space="preserve">
+    <value>Início da migração da Tabela Operador...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_OPERADOR_FIM" xml:space="preserve">
+    <value>Migração da Tabela Operador concluída.</value>
+  </data>
+  <data name="msgBIO_BASE_CHEIA" xml:space="preserve">
+    <value>39 - O limite máximo de usuários foi atingido.Placa cheia.</value>
+  </data>
+  <data name="msgPROCESSO_DE_SOLICITACAO_DE_EMPREGADOS_GRAVANDO_BANCO" xml:space="preserve">
+    <value>Gravando empregados no banco de dados...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOREPxUSUARIO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela GrupoRepXusuario.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_LST_USUARIOS" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_INICIO_OP_ATOMICA" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_CONFIG_GERAL" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="msgPROCESSO_DE_SOLICITACAO_DE_EMPREGADOR_SUCESSO" xml:space="preserve">
+    <value>Empregador recebido com sucesso!</value>
+  </data>
+  <data name="msgDADOS_RB1_GERADOS_SUCESSO" xml:space="preserve">
+    <value>Dados gerados com sucesso!</value>
+  </data>
+  <data name="msgBIO_TEMPLATE_INVALIDO" xml:space="preserve">
+    <value>Digital armazenada inválida.</value>
+  </data>
+  <data name="msgBIO_ERRO_COMUNICACAO" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="msgBIO_PROCESSADO_SUCESSO" xml:space="preserve">
+    <value>Processado com sucesso.</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_CONFIG_MAC" xml:space="preserve">
+    <value>Falha de comunicação, foi atingido o tempo limite após a solicitação dados</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_LOGS" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="msgPROCESSANDO_DADOS_TEMPLATES_RB1" xml:space="preserve">
+    <value>Processando dados dos templates na base de dados, Aguarde...</value>
+  </data>
+  <data name="msgTIMEOUT_RECUPERAR_MARCACOES" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="msgERRO_EQUIPAMENTO_CONFIGURADO_DIFERENTE_CONECTADO" xml:space="preserve">
+    <value>O Gerenciador Inner Rep não pode se comunicar com o Inner Rep Plus, devido ao modelo escolhido no seu cadastro estar incorreto. Configure no cadastro de Rep o modelo de "Inner Rep Plus" correto e tente comunicar novamente.</value>
+  </data>
+  <data name="msgMIGRA_LIMPAR_BASE_SQL_INI" xml:space="preserve">
+    <value>Limpando tabelas do SqlServer...</value>
+  </data>
+  <data name="msgMIGRA_LIMPAR_BASE_SQL_FIM" xml:space="preserve">
+    <value>Limpeza de tabelas SqlServer concluída.</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_CHAVE" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_TEMPLATE" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="msgMIGRA_TABELA_AJUSTEBIOMETRICO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela AjusteBiometrico...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_AJUSTEBIOMETRICO_FIM" xml:space="preserve">
+    <value>Migração da Tabela AjusteBiometrico concluída.</value>
+  </data>
+  <data name="msg_CHAVE_COMUNIC_INVALIDA" xml:space="preserve">
+    <value>A chave de comunicação deve ter 16 caracteres válidos</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_LST_FAIXA_HORARIO" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_BILHETE" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TEMPLATES_CAMA_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela TemplatesCama.</value>
+  </data>
+  <data name="msgPROCESSO_DE_SOLICITACAO_DE_CONFIGURACOES_ANDAMENTO" xml:space="preserve">
+    <value>Solicitando configurações do Rep...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REPCONFIGURACAOBARRAS_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela RepConfiguracaoBarras.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_AFD_FIM_ALL" xml:space="preserve">
+    <value>Migração das Tabelas AFD concluída.</value>
+  </data>
+  <data name="msgENVIO_EXCLUSAO_TEMPLATE" xml:space="preserve">
+    <value>Solicitando exclusão dos usuários Bio, aguarde...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TIPOTERMINALMETADADO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela TipoTerminalMetaDado.</value>
+  </data>
+  <data name="msgFALHA_PONTEIRO" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_CONFIG_BIO" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_TESTE_CONFIG" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOHORARIOVERAO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela ConfiguracaoHorarioVerao.</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_CARTAO_FINALIZADO_JA_ATUALIZADO" xml:space="preserve">
+    <value>Configurações de cartões já enviadas{0}anteriormente.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_AFD_FIM2" xml:space="preserve">
+    <value> concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_AFD_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela AFD</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_PROCESSA_DADOS_EMPREGADOS" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_INFO_BIO" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CARTAO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela Cartao.</value>
+  </data>
+  <data name="msgNENHUM_USUARIO_BIO_CADASTRADOS" xml:space="preserve">
+    <value>Não há digitais armazenadas no Rep.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_PROCESSAMENTO_DE_EMPREGADOR" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_CARTOES_FINALIZADO_SEM_ALTERACOES" xml:space="preserve">
+    <value>Sem alterações para enviar.</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_INCLUSAO_TEMPLATE" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_TESTE_CONFIG" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_RELOGIO" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="msg_SOLICITANDO_EMPREGADOS" xml:space="preserve">
+    <value>Solicitando informações de Empregados ao Rep</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOBARRAS_INI" xml:space="preserve">
+    <value>Início da migração da Tabela ConfiguracaoBarras...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOBARRAS_FIM" xml:space="preserve">
+    <value>Migração da Tabela ConfiguracaoBarras concluída.</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_CONFIG_GERAL" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_LST_FAIXA_HORARIO" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="msgGERANDO_DADOS_TEMPLATES_RB1" xml:space="preserve">
+    <value>Gerando arquivo de dados dos templates,Aguarde...</value>
+  </data>
+  <data name="msgREP_BLOQUEADO" xml:space="preserve">
+    <value>O Rep está bloqueado!</value>
+  </data>
+  <data name="msgFORMATO_CARTAO_BARRAS_ZERADO" xml:space="preserve">
+    <value>Mascara de cartão barras de empregado zerado!</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIA_DADOS_EMPREGADOR" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="msgIMPORTANDO_DADOS_RB1" xml:space="preserve">
+    <value>Importando dados do arquivo RB1...</value>
+  </data>
+  <data name="msgRELOGIO_ATUALIZADO" xml:space="preserve">
+    <value>Relógio atualizado com sucesso.</value>
+  </data>
+  <data name="msgAVISO_OBRIGATORIO_PREENCH_CAMPO_LOCAL" xml:space="preserve">
+    <value>O local do Rep não pode ser vazio!</value>
+  </data>
+  <data name="msg_NENHUM_REGISTRO_AFD" xml:space="preserve">
+    <value>Nenhum registro para coletar</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOBIO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela ConfiguracaoBio...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOBIO_FIM" xml:space="preserve">
+    <value>Migração da Tabela ConfiguracaoBio concluída.</value>
+  </data>
+  <data name="msgENVIANDO_CPF_RESPONSAVEL" xml:space="preserve">
+    <value>Enviando CPF do Responsável</value>
+  </data>
+  <data name="msgFALHA_MONTAR_LST_USUARIOS_TLM" xml:space="preserve">
+    <value>Falha ao montar a lista de usuários TLM</value>
+  </data>
+  <data name="msgERRO_EQUIPAMENTO_CONFIGURADO_DIFERENTE_TASK_373" xml:space="preserve">
+    <value>O Gerenciador Rep não pode se comunicar com o INOVA 4 373, devido ao modelo escolhido no seu cadastro estar incorreto. Configure no cadastro de Rep o modelo de "Inova 4 373" correto e tente comunicar novamente.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_FORMATOCARTAO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela FormatoCartao...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_FORMATOCARTAO_FIM" xml:space="preserve">
+    <value>Migração da Tabela FormatoCartao concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_EMPREGADO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela Empregado...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_EMPREGADO_FIM" xml:space="preserve">
+    <value>Migração da Tabela Empregado concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_SENIOR_FIM" xml:space="preserve">
+    <value>Migração da Tabela Senior concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_SENIOR_INI" xml:space="preserve">
+    <value>Início da migração da Tabela Senior...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_COLETAAUTOMATICA_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela ColetaAutomatica.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_CONFIG_VERSAO_PROX" xml:space="preserve">
+    <value>Falha de comunicação, não recebeu resposta após a solicitação da versão prox</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_EMPREGADOR_INICIADO" xml:space="preserve">
+    <value>Iniciando processo..</value>
+  </data>
+  <data name="msgERRO_COMUNICACACO_NO_RECEBIMENTO" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TIPOARQUIVOMETADADO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela TipoArquivoMetaDado...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_TIPOARQUIVOMETADADO_FIM" xml:space="preserve">
+    <value>Migração da Tabela TipoArquivoMetaDado concluída.</value>
+  </data>
+  <data name="msgCONEXAO_ENCERRADA" xml:space="preserve">
+    <value>Conexão encerrada</value>
+  </data>
+  <data name="msg_INICIANDO_PROCESSO_ATUALIZACAO_EMPREGADOS" xml:space="preserve">
+    <value>Iniciando processo..</value>
+  </data>
+  <data name="msgMIGRA_TABELA_AJUSTEBIOMETRICO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela AjusteBiometrico.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOOPERADOR_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela GrupoOperador.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_EMPREGADOR_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela Empregador.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_FORMATOCARTAO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela FormatoCartao.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOOPERADOR_FIM" xml:space="preserve">
+    <value>Migração da Tabela GrupoOperador concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOOPERADOR_INI" xml:space="preserve">
+    <value>Início da migração da Tabela GrupoOperador...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_EMPREGADOR_INI" xml:space="preserve">
+    <value>Início da migração da Tabela Empregador...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_EMPREGADOR_FIM" xml:space="preserve">
+    <value>Migração da Tabela Empregador concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_EMPREGADO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela Empregado.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_AJUSTE_BIOMETRICO_FIM" xml:space="preserve">
+    <value>Término da migração da tabela AjusteBiometrico</value>
+  </data>
+  <data name="msgMIGRA_TABELA_AJUSTE_BIOMETRICO_INI" xml:space="preserve">
+    <value>Início da migração da tabela AjusteBiometrico</value>
+  </data>
+  <data name="msgENVIO_INCLUSAO_TEMPLATE" xml:space="preserve">
+    <value>Solicitando inclusão dos usuários Bio, aguarde...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REP_INI" xml:space="preserve">
+    <value>Início da migração da Tabela Rep...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REP_FIM" xml:space="preserve">
+    <value>Migração da Tabela Rep concluída.</value>
+  </data>
+  <data name="msgAVISO_ARQUIVO_CONFIG_TLM_VAZIO" xml:space="preserve">
+    <value>Caminho do arquivo de configuração TLM não pode ser vazio.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOGERAL_FIM" xml:space="preserve">
+    <value>Migração da Tabela ConfiguracaoGeral concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOGERAL_INI" xml:space="preserve">
+    <value>Início da migração da Tabela ConfiguracaoGeral...</value>
+  </data>
+  <data name="msgERRO_NUM_TERMINAL_ERRADO" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="msgMIGRA_TABELA_HORARIO_ARQUIVO_AFD_INI" xml:space="preserve">
+    <value>Início da migração da Tabela HorarioGerarArquivoAFD...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_HORARIO_ARQUIVO_AFD_FIM" xml:space="preserve">
+    <value>Migração da Tabela  HorarioGerarArquivoAFD concluída.</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_EMPREGADOR_FINALIZADO" xml:space="preserve">
+    <value>Atualizado com sucesso.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAO_BIO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela ConfiguracaoBio</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_CPF_RESPONSAVEL" xml:space="preserve">
+    <value>Falha de comunicação, não recebeu resposta após o envio do CPF do responsável.</value>
+  </data>
+  <data name="msg_ENVIANDO_DADOS_EMPREGADOS" xml:space="preserve">
+    <value>Enviando empregados,aguarde...</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_EMPREGADOS" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAO_BIO_FIM" xml:space="preserve">
+    <value>Término da migração da tabela ConfiguracaoBio</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAO_BIO_INI" xml:space="preserve">
+    <value>Início da migração da tabela ConfiguracaoBio</value>
+  </data>
+  <data name="msgERRO_SOLICITAR_INFO_BIO" xml:space="preserve">
+    <value>Falha ao solicitar as configurações biometricas.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOOPERADORPRIVILEGIO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela GrupoOperadorPrivilegio...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOOPERADORPRIVILEGIO_FIM" xml:space="preserve">
+    <value>Migração da Tabela GrupoOperadorPrivilegio concluída. </value>
+  </data>
+  <data name="msgMIGRA_TABELA_AFD_INI_ALL" xml:space="preserve">
+    <value>Início da migração das Tabelas AFD.</value>
+  </data>
+  <data name="msg_NENHUM_BILHETES" xml:space="preserve">
+    <value>Não foram efetuadas marcações desde a última coleta.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_LST_CARTOES" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REPCONFIGURACAOBARRAS_INI" xml:space="preserve">
+    <value>Início da migração da Tabela RepConfiguracaoBarras...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REPCONFIGURACAOBARRAS_FIM" xml:space="preserve">
+    <value>Migração da Tabela RepConfiguracaoBarras concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_AJUSTE_BIOMETRICO_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela AjusteBiometrico</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_CONFIG_MODELO_REP" xml:space="preserve">
+    <value>Falha de comunicação, foi atingido o tempo limite após a solicitação dados do modelo do rep</value>
+  </data>
+  <data name="msgIMPORTANDO_DADOS_RB1_CONFIGURACOES_REP" xml:space="preserve">
+    <value>Importando dados do arquivo de configurações do rep...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOHORARIOVERAO_FIM" xml:space="preserve">
+    <value>Migração da Tabela ConfiguracaoHorarioVerao concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOHORARIOVERAO_INI" xml:space="preserve">
+    <value>Início da migração da Tabela ConfiguracaoHorarioVerao...</value>
+  </data>
+  <data name="msgMIGRA_TABELA_AFD_FIM" xml:space="preserve">
+    <value>Migração da Tabela </value>
+  </data>
+  <data name="msgMIGRA_TABELA_AFD_INI" xml:space="preserve">
+    <value>Início da migração da Tabela </value>
+  </data>
+  <data name="msgBIO_USUARIO_NAO_CADASTRADO" xml:space="preserve">
+    <value>Empregado  não cadastado.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_CONFIGURACAOBARRAS_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela ConfiguracaoBarras.</value>
+  </data>
+  <data name="msg_BILHETES_BAIXADOS" xml:space="preserve">
+    <value>Todas as marcações foram coletadas.</value>
+  </data>
+  <data name="msg_BILHETES_BAIXANDO" xml:space="preserve">
+    <value>Coletando as marcações, aguarde...</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_TEMPLATE" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="msg_FALHA_AO_INICIAR_BD" xml:space="preserve">
+    <value>Falha ao preparar base de dados para coleta AFD</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_EXCLUSAO_TEMPLATE" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="msgMIGRA_TABELA_REPAFD_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela RepAFD.</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_EMPREGADOR_ENVIANDO_DADOS" xml:space="preserve">
+    <value>Enviando informações do Empregador.</value>
+  </data>
+  <data name="msgNOME_NAO_CADASTRADO" xml:space="preserve">
+    <value>Nome não cadastrado.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOREP_FIM" xml:space="preserve">
+    <value>Migração da Tabela GrupoRep concluída.</value>
+  </data>
+  <data name="msgMIGRA_TABELA_GRUPOREP_INI" xml:space="preserve">
+    <value>Início da migração da Tabela GrupoRep...</value>
+  </data>
+  <data name="msgENVIO_TESTE_CONFIG_SUCESSO" xml:space="preserve">
+    <value>Identificação do Rep efetuada com sucesso.</value>
+  </data>
+  <data name="msg_INICIANDO_OPERACAO_ATOMICA" xml:space="preserve">
+    <value>Iniciando Operação de atualização de Empregados no Rep</value>
+  </data>
+  <data name="msgTIMEOUT_ENVIO_CPF_RESPONSAVEL" xml:space="preserve">
+    <value>Falha de comunicação, foi atingido o tempo limite após o envio do CPF do Responsável.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_LST_TIPO_USUARIO" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="msgMIGRA_TABELA_OPERADOR_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela Operador.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_SOLICIT_EXCLUSAO_TEMPLATE" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="msgMIGRA_TABELA_ARQUIVOAFD_ERRO" xml:space="preserve">
+    <value>Erro ao migrar a tabela ArquivoAFD.</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_CONFIG_GERAL_REP" xml:space="preserve">
+    <value>Não recebeu resposta após o envio de Configurações Gerais</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_DADOS_EMPREGADOR" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_DADOS_EMPREGADOS" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_INICIO_OP_ATOMICA" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="msgNENHUMA_RESPOSTA_APOS_ENVIO_CONFIG_BIO" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="msgEQUIPAMENTO_NAO_IDENTIFICADO" xml:space="preserve">
+    <value>Equipamento não identificado.</value>
+  </data>
+  <data name="msgTIMEOUT_SOLICIT_TEMPLATE_USUARIO" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="msgREP_LIBERADO" xml:space="preserve">
+    <value>O Rep está liberado!</value>
+  </data>
+  <data name="msgPROCESSO_DE_ENVIO_DE_HORARIO_VERAO_FINALIZADO" xml:space="preserve">
+    <value>Envio de horário de verão finalizado com sucesso!</value>
+  </data>
+  <data name="msgPROCESSANDO_DADOS_ARQUIVO_X_RB1" xml:space="preserve">
+    <value>Processando dados dos templates do arquivo {0}.</value>
+  </data>
+  <data name="msgEQUIPAMENTO_BLOQUEADO" xml:space="preserve">
+    <value>O equipamento está bloqueado.</value>
+  </data>
+  <data name="msgTIMEOUT_AGUARDA_FIM_OP_ATOMICA" xml:space="preserve">
+    <value>72</value>
+  </data>
+</root>

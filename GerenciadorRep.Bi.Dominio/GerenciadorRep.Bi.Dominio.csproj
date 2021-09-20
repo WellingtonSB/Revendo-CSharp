@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files (x86)\Topdata\SDK Inner Rep\DLLs\GerenciadorRep.Bi.Dominio.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29AFDFE1-06C9-4966-9C88-B9F560F07D01}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>GerenciadorRep.Bi.Dominio</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>4.4.1.19250</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>TopData.GerenciadorRep.Bi.Dominio</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Framework.Comunicacao">
+      <HintPath>lib\Framework.Comunicacao.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ASO15_DEF.cs" />
+    <Compile Include="Relogio.cs" />
+    <Compile Include="Marcacao.cs" />
+    <Compile Include="TarefaAbstrata.cs" />
+    <Compile Include="GerenciadorColetaSdk.cs" />
+    <Compile Include="GerenciadorConfigFabricaREPPlus.cs" />
+    <Compile Include="Empregado.cs" />
+    <Compile Include="ServicoBI.cs" />
+    <Compile Include="GrupoRepBI.cs" />
+    <Compile Include="TarefasBioAbstract.cs" />
+    <Compile Include="GerenciadorTemplatesBioRepPlus.cs" />
+    <Compile Include="GerenciadorConfigEmpregadorRepPlus.cs" />
+    <Compile Include="Empregador.cs" />
+    <Compile Include="AtualizadorBI.cs" />
+    <Compile Include="RegistroAFDRepPlus.cs" />
+    <Compile Include="GrupoOperador.cs" />
+    <Compile Include="GerenciadorTemplatesBio.cs" />
+    <Compile Include="GerenciadorConfigSenhasREPRepPlus.cs" />
+    <Compile Include="GerenciadorConfigFormatoCartaoREPRepPlus.cs" />
+    <Compile Include="GerenciadorEnvioDesafioRepPlus.cs" />
+    <Compile Include="GerenciadorTemplatesBioRepPlusSagem.cs" />
+    <Compile Include="GerenciadorConfigREPClientRepPlus.cs" />
+    <Compile Include="Ferramentas.cs" />
+    <Compile Include="GerenciadorConfigEmpregadosInclusaoRepPlus.cs" />
+    <Compile Include="GerenciadorConfigEmpregadosExclusaoRepPlus.cs" />
+    <Compile Include="CriptoBI.cs" />
+    <Compile Include="GerenciadorStatusImpressorasREP.cs" />
+    <Compile Include="GerenciadorSolicitarConfigFabricaVersaoProxPlus.cs" />
+    <Compile Include="MigracaoAccessSqlServer.cs" />
+    <Compile Include="EmpregadoAT.cs" />
+    <Compile Include="EnumEstadoNotificacaoParaUsuario.cs" />
+    <Compile Include="EnumEstadoResultadoFinalProcesso.cs" />
+    <Compile Include="TipoRep.cs" />
+    <Compile Include="ProcessoTemplates.cs" />
+    <Compile Include="EstadosCadastroEnvioConfig.cs" />
+    <Compile Include="EstadosRetornoComandoBio.cs" />
+    <Compile Include="ErroLog.cs" />
+    <Compile Include="GerenciadorColetaAFDRepPlus.cs" />
+    <Compile Include="GerenciadorConfigFabricaNomeRevendaPlusDemo.cs" />
+    <Compile Include="ColetaAutomaticaSenior.cs" />
+    <Compile Include="ArquivoAFD.cs" />
+    <Compile Include="StatusImpressoras.cs" />
+    <Compile Include="RegistroAFD.cs" />
+    <Compile Include="Operador.cs" />
+    <Compile Include="EmpregadorAT.cs" />
+    <Compile Include="GerenciadorTestaConexaoREP.cs" />
+    <Compile Include="GerenciadorSolicitaRelogioREP.cs" />
+    <Compile Include="StatusAtualizacao.cs" />
+    <Compile Include="RepBase.cs" />
+    <Compile Include="RepBio.cs" />
+    <Compile Include="ManutencaoDB.cs" />
+    <Compile Include="ImportaEmpregados.cs" />
+    <Compile Include="GerenciadorStatusImpressorasREPRepPlus.cs" />
+    <Compile Include="GerenciadorRelogioRepPlus.cs" />
+    <Compile Include="GerenciadorConfigCPFResponsavel.cs" />
+    <Compile Include="EnvironmentHelper.cs" />
+    <Compile Include="TemplateBio.cs" />
+    <Compile Include="HorarioGerarArquivoAFD.cs" />
+    <Compile Include="GerenciadorConfigEmpregados.cs" />
+    <Compile Include="ExportacaoArquivosBI.cs" />
+    <Compile Include="GerenciadorConfigSolicitarEmpregadosRepPlus.cs" />
+    <Compile Include="GerenciadorConfigNivelBiometriaRepPlus.cs" />
+    <Compile Include="GerenciadorColetaNSRSenior.cs" />
+    <Compile Include="GerenciadorColetaRepPlusNSRSenior.cs" />
+    <Compile Include="GerenciadorConfigResetarIpRepPlus.cs" />
+    <Compile Include="GrupoRepXempregadoBI.cs" />
+    <Compile Include="GerenciadorConfigEmpregador.cs" />
+    <Compile Include="NotificarEventArgsCripto.cs" />
+    <Compile Include="NotificarParaUsuarioInclusaoEventArgs.cs" />
+    <Compile Include="NotificarRecebimentoParaUsuarioEventArgs.cs" />
+    <Compile Include="NotificarConfigMacEventArgs.cs" />
+    <Compile Include="NotificarConfigVersaoProxEventArgs.cs" />
+    <Compile Include="NotificarConfigModeloRepEventArgs.cs" />
+    <Compile Include="NotificarParaUsuarioEventArgs.cs" />
+    <Compile Include="NotificarConexaoEventArgs.cs" />
+    <Compile Include="NotificarTotBilhetesParaUsuarioEventArgs.cs" />
+    <Compile Include="NotificarTotBilhetesResetadosParaUsuarioEventArgs.cs" />
+    <Compile Include="NotificarRegistroDoNsrSolicitadoEventArgs.cs" />
+    <Compile Include="NotificarRegistroDoNsrSolicitadoSeniorEventArgs.cs" />
+    <Compile Include="NotificarRegistrosEmpregadosEventArgs.cs" />
+    <Compile Include="NotificarRegistrosConfiguracoesEventArgs.cs" />
+    <Compile Include="NotificarRegistrosEmpregadorEventArgs.cs" />
+    <Compile Include="NotificarProgressBarEventArgs.cs" />
+    <Compile Include="NotificarModeloBIOEventArgs.cs" />
+    <Compile Include="NotificarParaUsuarioEmpregadorREPDiferenteEventArg.cs" />
+    <Compile Include="NotificarTipoPlacaFIMEventArgs.cs" />
+    <Compile Include="NotificarVersaoFWEventArgs.cs" />
+    <Compile Include="NotificarColetaEventArgs.cs" />
+    <Compile Include="NotificarStatusImpressoraEventArgs.cs" />
+    <Compile Include="NotificarRelogioEventArgs.cs" />
+    <Compile Include="NotificarRelogioRepPlusEventArgs.cs" />
+    <Compile Include="NotificarStatusImpressoraRepPlusEventArgs.cs" />
+    <Compile Include="NotificarInclusaoEmpregadosEventArgs.cs" />
+    <Compile Include="NotificarExclusaoEmpregadosEventArgs.cs" />
+    <Compile Include="NotificarLstStatusImpressoraEventArgs.cs" />
+    <Compile Include="NotificarLstColetaEventArgs.cs" />
+    <Compile Include="NotificarInicioColetaEventArgs.cs" />
+    <Compile Include="NotificarTesteConexaoEventArgs.cs" />
+    <Compile Include="NotificarImportacaoTemplate.cs" />
+    <Compile Include="NotificarMigraAccessSqlServerEventArgs.cs" />
+    <Compile Include="OnUpdateLabelEventArgsBI.cs" />
+    <Compile Include="NotificarInicioEnvioRepEventArgs.cs" />
+    <Compile Include="AtualizarPictureEventArgs.cs" />
+    <Compile Include="HabilitarTextBoxEventArgs.cs" />
+    <Compile Include="AtualizarGroupBoxEventArgs.cs" />
+    <Compile Include="AtualizarButtonEventArgs.cs" />
+    <Compile Include="AtualizarLabelEventArgs.cs" />
+    <Compile Include="AtualizarTamanhoTelaEventArgs.cs" />
+    <Compile Include="NotificarSolicitacaoInfoRep.cs" />
+    <Compile Include="NotificarSolicitacaoInfoMRPRep.cs" />
+    <Compile Include="NotificarLiberacaoSerialMACEventArgs.cs" />
+    <Compile Include="NotificarLiberacaoModeloRepPlusEventArgs.cs" />
+    <Compile Include="NotificarLiberacaoVersaoProxEventArgs.cs" />
+    <Compile Include="NotificarSeniorEventArgs.cs" />
+    <Compile Include="NotificarInicioNotificacaoSeniorEventArgs.cs" />
+    <Compile Include="NotificarLiberacaoNomeRevendaEventArgs.cs" />
+    <Compile Include="NotificarMemoriasApagadas.cs" />
+    <Compile Include="NotificarSolicitarDesafio.cs" />
+    <Compile Include="GerenciadorSolicitarConfigFabricaModeloREPPlus.cs" />
+    <Compile Include="TipoTerminal.cs" />
+    <Compile Include="MultiGerenciadorBI.cs" />
+    <Compile Include="GerenciadorConfigGeraisREPRepPlus.cs" />
+    <Compile Include="GerenciadorColetaAFD.cs" />
+    <Compile Include="GerenciadorColeta.cs" />
+    <Compile Include="EnvioREP.cs" />
+    <Compile Include="ConfiguracoesGerais.cs" />
+    <Compile Include="GerenciadorConfigNivelBiometriaRepPlusSagem.cs" />
+    <Compile Include="CartaoEmpregado.cs" />
+    <Compile Include="GerenciadorConfigREPClient.cs" />
+    <Compile Include="GerenciadorConfigFabricaModeloREPPlus.cs" />
+    <Compile Include="TipoArquivoConst.cs" />
+    <Compile Include="IntervalosColetaAuto.cs" />
+    <Compile Include="MascaraArquivo.cs" />
+    <Compile Include="ImportacaoEmpregados.cs" />
+    <Compile Include="TipoTerminalRepPlus.cs" />
+    <Compile Include="TipoDeDados.cs" />
+    <Compile Include="TipoMensagemConfigDeFabrica.cs" />
+    <Compile Include="EstadosEnvioTemplate.cs" />
+    <Compile Include="GerenciadorTestaConexaoREPRepPlus.cs" />
+    <Compile Include="CheckSum.cs" />
+    <Compile Include="ArquivoBilhete.cs" />
+    <Compile Include="HorarioEnvioTemplateBI.cs" />
+    <Compile Include="GerenciadorRelogio.cs" />
+    <Compile Include="GerenciadorConfigEmpregadosRepPlus.cs" />
+    <Compile Include="GerenciadorColetaRepPlus.cs" />
+    <Compile Include="GerenciadorChavePublica.cs" />
+    <Compile Include="GerenciadorConfigSolicitarEmpregadorRepPlus.cs" />
+    <Compile Include="GerenciadorColetaRepPlusSdk.cs" />
+    <Compile Include="ConfiguracaoBarras20.cs" />
+    <Compile Include="ColetaAutomatica.cs" />
+    <Compile Include="BSP_BI.cs" />
+    <Compile Include="ArquivoCFGBI.cs" />
+    <Compile Include="GerenciadorConfigGeraisRepPlus.cs" />
+    <Compile Include="GerenciadorConfigGeraisREP.cs" />
+    <Compile Include="GerenciadorConfigComunicacaoRepPlus.cs" />
+    <Compile Include="FormatoCartao.cs" />
+    <Compile Include="GerenciadorConfigSolicitarEmpregados.cs" />
+    <Compile Include="UltimasConfiguracoes.cs" />
+    <Compile Include="RestricoesEnvioTemplateBI.cs" />
+    <Compile Include="PadraoTLM.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="GerenciadorConfigHorarioVeraoREPRepPlus.cs" />
+    <Compile Include="GerenciadorConfigSolicitarEmpregador.cs" />
+    <Compile Include="GerenciadorConfigSolicitarConfigGeraisREPRepPlus.cs" />
+    <Compile Include="RepComunicacaoBI.cs" />
+    <Compile Include="RepAFD.cs" />
+    <Compile Include="RepBaseAT.cs" />
+    <Compile Include="GerenciadorConfigComunicacao.cs" />
+    <Compile Include="GerenciadorSolicitaRelogioREPPlus.cs" />
+    <Compile Include="GerenciadorConfigFabricaVersaoProxPlus.cs" />
+    <Compile Include="GerenciadorSolicitarConfigFabricaMacREPPlus.cs" />
+    <Compile Include="ArquivoCustomizado.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
